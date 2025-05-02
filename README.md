@@ -9,7 +9,7 @@ Stay organized and boost your productivity by managing your tasks easily!
 - Mark tasks as completed  
 - Delete tasks  
 - Clean, minimal, and responsive UI  
-- Fast performance with Vite build tool  
+- Fast performance with the Vite build tool  
 - Styled beautifully using TailwindCSS and custom CSS
 
 ## 🛠️ Tech Stack
@@ -21,7 +21,7 @@ Stay organized and boost your productivity by managing your tasks easily!
 
 ## 📸 Screenshots
 
-> (Add screenshots here if you have any — example: `/screenshots/main.png`)
+![Website Screenshot](WEB.png)
 
 ## 📂 Installation & Setup
 
@@ -29,12 +29,12 @@ Follow these steps to run the project locally:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/ayown/TO-DO.git
    ```
 
 2. **Navigate to the project directory**
    ```bash
-   cd your-repo-name
+   cd TO-DO
    ```
 
 3. **Install dependencies**
