@@ -42,6 +42,11 @@ function App() {
     // step 4 - copy the delete functionality and filter out the todo @ index from the duplicate array
     // step 5 - set the todo state equal to the filtered duplicate array
     // step 6 - now the user can edit the todo and re-add it when satisfied
+
+    setTodos((prev) => prev.map
+      (
+        (prevTodo) => (prevTodo.index === index ? todo : prevTodo )
+      ))
   }
 
   function handleDeleteTodo(index) {
@@ -67,7 +72,7 @@ function App() {
       <Header todos={todos} />
       <Tabs selectedTab={selectedTab} setSelectedTab={setSelectedTab} todos={todos} />
       <TodoList handleCompleteTodo={handleCompleteTodo} handleDeleteTodo={handleDeleteTodo} selectedTab={selectedTab} todos={todos} />
-      <TodoInput handleAddTodo={handleAddTodo} />
+      <TodoInput handleAddTodo={handleAddTodo} handleEditTodo={handleEditTodo} />
     </>
   )
 }
