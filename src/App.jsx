@@ -67,7 +67,7 @@ function App() {
       <Header todos={todos} />
       <Tabs selectedTab={selectedTab} setSelectedTab={setSelectedTab} todos={todos} />
       <TodoList handleCompleteTodo={handleCompleteTodo} handleDeleteTodo={handleDeleteTodo} selectedTab={selectedTab} todos={todos} />
-      <TodoInput handleAddTodo={handleAddTodo} />
+      <TodoInput handleAddTodo={handleAddTodo} handleEditTodo={handleEditTodo} />
     </>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 export function TodoInput(props) {
-  const { handleAddTodo } = props
+  const { handleAddTodo, handleEditTodo } = props
 
   return (
     <div className="todo-input">
