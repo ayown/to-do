@@ -1,4 +1,6 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
+/* eslint-disable no-unexpected-multiline */
+ 
 import { Header } from "./components/Header"
 import { Tabs } from "./components/Tabs"
 import { TodoInput } from "./components/TodoInput"
